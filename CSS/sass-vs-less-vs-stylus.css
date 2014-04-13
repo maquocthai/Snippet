@@ -1,0 +1,31 @@
+/*Sass $ symbol*/
+
+$mainColor: #0982c1;
+$siteWidth: 1024px;
+$borderStyle: dotted;
+body {
+ color: $mainColor;
+ border: 1px $borderStyle $mainColor;
+ max-width: $siteWidth;
+}
+
+/*LESS variable names are prepended with the @ symbol.*/
+
+@mainColor: #0982c1;
+@siteWidth: 1024px;
+@borderStyle: dotted;
+body {
+ color: @mainColor;
+ border: 1px @borderStyle @mainColor;
+ max-width: @siteWidth;
+}
+/*Stylus
+Stylus variables don’t require anything to be prepended to them, although it allows the $ symbol
+NOT @ symbol to a variable name, but will not apply the value when referenced*/
+
+mainColor = #0982c1 
+siteWidth = 1024px 
+$borderStyle = dotted  
+body  color mainColor
+border 1px $borderStyle mainColor  
+max-width siteWidth

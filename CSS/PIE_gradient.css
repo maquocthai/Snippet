@@ -1,0 +1,32 @@
+.donate .content .button .bt_box {
+	width:145px;
+	height:62px;
+	float:left;
+	position:relative;
+	cursor:pointer;
+	color:#FFFFFF;
+	background-color:#fdc800;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	behavior: url(PIE.htc);width:625px;
+	height:330px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	position:relative;
+	border: 1px solid #fff;
+	float:left;
+	color:#121d46;
+	background: #aeb0b4;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ededee), to(#aeb0b4));
+	background: -webkit-linear-gradient(#ededee, #aeb0b4);
+	background: -moz-linear-gradient(#ededee, #aeb0b4);
+	background: -ms-linear-gradient(#ededee, #aeb0b4);
+	background: -o-linear-gradient(#ededee, #aeb0b4);
+	background: linear-gradient(#ededee, #aeb0b4);
+	-pie-background: linear-gradient(#ededee, #aeb0b4);
+	-webkit-box-shadow: #666 0px 0px 3px;
+	-moz-box-shadow: #666 0px 0px 3px;
+	box-shadow: #666 0px 0px 3px;
+	behavior: url(PIE.htc);
+}

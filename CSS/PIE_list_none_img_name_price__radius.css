@@ -1,0 +1,13 @@
+.donate .content .button .bt_box {
+	width:145px;
+	height:62px;
+	float:left;
+	position:relative;
+	cursor:pointer;
+	color:#FFFFFF;
+	background-color:#fdc800;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	behavior: url(PIE.htc);
+}

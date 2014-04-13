@@ -1,0 +1,23 @@
+<style type="text/css">
+sup,
+sub {
+	height: 0;
+	line-height: 1;
+	vertical-align: baseline;
+	_vertical-align: bottom;
+	position: relative;
+	
+}
+
+sup {
+	bottom: 1px;
+}
+
+sub {
+	top: .5px;
+}
+/* IE7 */
+*+html .que_product_03 .number span sup {
+	bottom: -7px;
+}
+</style>
